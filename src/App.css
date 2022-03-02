@@ -12,13 +12,17 @@ body {
 }
 
 /* Write your code here. */
-.banner-bg-container {
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
-  padding: 20px;
 }
-.banner-container {
+
+.banner-cards-list {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  list-style-type: none;
+  align-items: center;
+  width: 90%;
+  padding-left: 0px;
 }

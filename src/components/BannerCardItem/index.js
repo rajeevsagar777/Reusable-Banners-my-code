@@ -1,14 +1,17 @@
 import './index.css'
 
 const BannerCardItem = props => {
-  const {bannerCards} = props
-  const {headerText, description, className} = bannerCards
+  const {bannerDetails} = props
+  const {headerText, description, className} = bannerDetails
+
   return (
-    <li className={`${className} card`}>
-      <div className="innerContent">
+    <li className={`${className} banner-card-item`}>
+      <div>
         <h1 className="heading">{headerText}</h1>
         <p className="description">{description}</p>
-        <button className="smButton">Show More </button>
+        <button className="show-more-btn" type="button">
+          Show More
+        </button>
       </div>
     </li>
   )
