@@ -1,0 +1,3 @@
+{bannerCardsList.map(eachItem => (
+        <BannerCardItem bannerCards={eachItem} key={eachItem.id} />
+      ))}

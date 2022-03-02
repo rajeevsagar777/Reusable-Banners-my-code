@@ -1,0 +1,83 @@
+.card-1 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-1-bg.png');
+  background-size: cover;
+}
+
+.card-2 {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-2-bg.png');
+  background-size: cover;
+}
+
+.card-3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-3-bg.png');
+  background-size: cover;
+}
+
+/* Write your code here. */
+
+.card {
+  margin-top: 20px;
+  border: 1px solid #cbced2;
+  border-radius: 8px;
+  padding: 15px;
+}
+@media screen and (min-width: 786px) {
+  .card {
+    padding: 20px;
+    margin-top: 30px;
+  }
+}
+.innerContent {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+}
+
+.heading {
+  font-size: 25px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  color: #326a9d;
+}
+@media screen and (min-width: 786px) {
+  .heading {
+    font-size: 35px;
+  }
+}
+.description {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #64748b;
+}
+@media screen and (min-width: 786px) {
+  .description {
+    font-size: 16px;
+  }
+}
+
+.smButton {
+  background-color: #ffffff;
+  color: #326a9d;
+  border: 2px solid #326a9d;
+  border-radius: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 786px) {
+  .smButton {
+    font-size: 16px;
+  }
+}
